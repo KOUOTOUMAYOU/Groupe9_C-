@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "fxZ3KveuITY=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ahmed\\Desktop\\GestionApp_POO_Refactor\\GestionApp\\GestionApp\\GestionApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ahmed\\.nuget\\packages\\microsoft.data.sqlite\\10.0.0\\microsoft.data.sqlite.10.0.0.nupkg.sha512",
+    "C:\\Users\\ahmed\\.nuget\\packages\\microsoft.data.sqlite.core\\10.0.0\\microsoft.data.sqlite.core.10.0.0.nupkg.sha512",
+    "C:\\Users\\ahmed\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.11\\sqlitepclraw.bundle_e_sqlite3.2.1.11.nupkg.sha512",
+    "C:\\Users\\ahmed\\.nuget\\packages\\sqlitepclraw.core\\2.1.11\\sqlitepclraw.core.2.1.11.nupkg.sha512",
+    "C:\\Users\\ahmed\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.11\\sqlitepclraw.lib.e_sqlite3.2.1.11.nupkg.sha512",
+    "C:\\Users\\ahmed\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.11\\sqlitepclraw.provider.e_sqlite3.2.1.11.nupkg.sha512",
+    "C:\\Users\\ahmed\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Une erreur s’est produite lors de l’obtention des données de vulnérabilité du package\u00A0: Impossible de charger l'index de service pour la source https://api.nuget.org/v3/index.json.",
+      "projectPath": "C:\\Users\\ahmed\\Desktop\\GestionApp_POO_Refactor\\GestionApp\\GestionApp\\GestionApp.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\ahmed\\Desktop\\GestionApp_POO_Refactor\\GestionApp\\GestionApp\\GestionApp.csproj",
+      "targetGraphs": []
+    }
+  ]
+}
