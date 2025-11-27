@@ -1,113 +1,127 @@
-using System;
+﻿using System;
+using System.Net;
+using System.Net.Sockets;
+using System.Text;
 using System.Threading;
+using System.Windows.Forms;
 
-namespace GestionApp
+namespace ClipboardPartage
 {
-    internal class Program
+    // ──────────────────────────────
+    // CLASSE PRINCIPALE – ORIENTÉE OBJET
+    // ──────────────────────────────
+    public class GestionnaireClipboard
     {
-        static void Main(string[] args)
+        // ██████████████████████████████████████████████████
+        // ███ À CHANGER SUR CHAQUE ORDI (1 ligne seulement) ███
+        // ██████████████████████████████████████████████████
+        private readonly string IP_CIBLE = "192.168.1.42";   // ←←← CHANGE ÇA : IP de l'autre ordi
+        // ██████████████████████████████████████████████████
+
+        private const int PORT = 5000;
+        private string dernierTexte = "";
+
+        public GestionnaireClipboard()
         {
-            Console.Title = "Gestion Stock Pro 2025 - Édition Prestige";
-            Console.CursorVisible = false;
+            Console.Title = "Clipboard partagé – Prêt pour la démo 7h";
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine("╔══════════════════════════════════════════════════╗");
+            Console.WriteLine("║       CLIPBOARD PARTAGÉ ENTRE DEUX PC            ║");
+            Console.WriteLine("║        Ctrl+C = envoie  │  Ctrl+V = reçoit       ║");
+            Console.WriteLine($"║        Envoi vers → {IP_CIBLE}:{PORT}                 ║");
+            Console.WriteLine("╚══════════════════════════════════════════════════╝\n");
+            Console.ResetColor();
 
-            SplashScreen();
+            // Démarre l'écoute en arrière-plan
+            new Thread(ServeurEcoute) { IsBackground = true }.Start();
 
-            Console.BackgroundColor = ConsoleColor.DarkGray;
-            Console.ForegroundColor = ConsoleColor.White;
-            Console.Clear();
+            // Boucle principale
+            BouclePrincipale();
+        }
 
-            try
+        private void BouclePrincipale()
+        {
+            while (true)
             {
-                // Initialisation de la base de données et des Repositories
-                Database.Init();
-                
-                // Instanciation du menu principal (POO)
-                MainMenu mainMenu = new MainMenu();
-                mainMenu.Show();
-            }
-            catch (Exception ex)
-            {
-                Console.Clear();
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("ERREUR CRITIQUE DANS L'APPLICATION");
-                Console.ForegroundColor = ConsoleColor.White;
-                Console.WriteLine("\nDétails de l'erreur :");
-                Console.WriteLine($"- {ex.Message}");
-
-                if (ex.InnerException != null)
+                if (Clipboard.ContainsText())
                 {
-                    Console.WriteLine($"- {ex.InnerException.Message}");
+                    string actuel = Clipboard.GetText();
+
+                    // Détection d'un nouveau Ctrl+C
+                    if (!string.IsNullOrWhiteSpace(actuel) && actuel != dernierTexte)
+                    {
+                        Envoyer(actuel);
+                        dernierTexte = actuel;
+                    }
                 }
 
-                Console.WriteLine("\nVérifiez que :");
-                Console.WriteLine("✓ L'application a les permissions d'écriture");
-                Console.WriteLine("✓ Le fichier de base de données n'est pas corrompu");
-                Console.WriteLine("✓ .NET 8.0 est correctement installé");
-
-                Console.ForegroundColor = ConsoleColor.Yellow;
-                Console.WriteLine("\nAppuyez sur une touche pour fermer l'application...");
-                Console.ReadKey(true);
+                Thread.Sleep(150);
+                Application.DoEvents();
             }
         }
 
-        static void SplashScreen()
+        private void Envoyer(string texte)
         {
-            Console.Clear();
-            Console.BackgroundColor = ConsoleColor.Black;
-
-            string[] logo = {
-                "    ██████╗ ███████╗███████╗████████╗██╗ ██████╗ ███╗   ██╗",
-                "   ██╔════╝ ██╔════╝██╔════╝╚══██╔══╝██║██╔═══██╗████╗  ██║",
-                "   ██║  ███╗█████╗  ███████╗   ██║   ██║██║   ██║██╔██╗ ██║",
-                "   ██║   ██║██╔══╝  ╚════██║   ██║   ██║██║   ██║██║╚██╗██║",
-                "   ╚██████╔╝███████╗███████║   ██║   ██║╚██████╔╝██║ ╚████║",
-                "    ╚═════╝ ╚══════╝╚══════╝   ╚═╝   ╚═╝ ╚═════╝ ╚═╝  ╚═══╝",
-                "",
-                "             ███████╗████████╗ ██████╗  ██████╗██╗  ██╗",
-                "             ██╔════╝╚══██╔══╝██╔═══██╗██╔════╝██║ ██╔╝",
-                "             ███████╗   ██║   ██║   ██║██║     █████╔╝ ",
-                "             ╚════██║   ██║   ██║   ██║██║     ██╔═██╗ ",
-                "             ███████║   ██║   ╚██████╔╝╚██████╗██║  ██╗",
-                "             ╚══════╝   ╚═╝    ╚═════╝  ╚═════╝╚═╝  ╚═╝",
-                "",
-                "           GESTION DE STOCK PRO 2025 - ÉDITION PRESTIGE"
-            };
-
-            int w = Console.WindowWidth;
-            int h = Console.WindowHeight;
-            int y = Math.Max(3, (h - logo.Length - 8) / 2);
-
-            for (int i = 0; i < logo.Length; i++)
+            try
             {
-                int x = Math.Max(0, (w - logo[i].Length) / 2);
-                Console.SetCursorPosition(x, y + i);
-                Console.ForegroundColor = i == logo.Length - 1 ? ConsoleColor.Yellow : ConsoleColor.Cyan;
-                Console.WriteLine(logo[i]);
+                using TcpClient client = new TcpClient(IP_CIBLE, PORT);
+                byte[] data = Encoding.UTF8.GetBytes(texte);
+                client.GetStream().Write(data, 0, data.Length);
+
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine($"ENVOYÉ → {texte.Substring(0, Math.Min(50, texte.Length))}...");
+                Console.ResetColor();
             }
-
-            int barY = y + logo.Length + 3;
-            int barX = Math.Max(0, (w - 60) / 2);
-            Console.SetCursorPosition(barX, barY);
-            Console.ForegroundColor = ConsoleColor.White;
-            Console.Write("Chargement du système ");
-
-            for (int i = 0; i <= 100; i += 4)
+            catch
             {
-                int filled = i * 50 / 100;
-                string bar = new string('█', filled) + new string('░', 50 - filled);
-                Console.SetCursorPosition(barX + 22, barY);
-                Console.ForegroundColor = i < 70 ? ConsoleColor.Yellow : ConsoleColor.Green;
-                Console.Write($"[{bar}] {i,3}%");
-                Thread.Sleep(50);
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Impossible d'envoyer (l'autre PC est éteint ?)");
+                Console.ResetColor();
             }
+        }
 
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.Write(" OK !");
-            Console.Beep(1200, 400);
+        private void ServeurEcoute()
+        {
+            try
+            {
+                TcpListener listener = new TcpListener(IPAddress.Any, PORT);
+                listener.Start();
 
-            Console.SetCursorPosition(Math.Max(0, (w - 50) / 2), barY + 3);
-            Console.WriteLine("Appuyez sur une touche pour continuer...");
-            Console.ReadKey(true);
+                while (true)
+                {
+                    TcpClient client = listener.AcceptTcpClient();
+                    NetworkStream stream = client.GetStream();
+                    byte[] buffer = new byte[1048576];
+                    int bytes = stream.Read(buffer, 0, buffer.Length);
+                    string reçu = Encoding.UTF8.GetString(buffer, 0, bytes);
+
+                    Clipboard.SetText(reçu);
+                    SendKeys.SendWait("^v");
+
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.WriteLine($"REÇU ET COLLÉ ← {reçu.Substring(0, Math.Min(50, reçu.Length))}...");
+                    Console.ResetColor();
+
+                    client.Close();
+                }
+            }
+            catch { }
+        }
+    }
+
+    // ──────────────────────────────
+    // PROGRAMME D'ENTRÉE
+    // ──────────────────────────────
+    internal class Program
+    {
+        [STAThread]
+        static void Main()
+        {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+
+            _ = new GestionnaireClipboard();   // Démarre tout
+            Application.Run();                 // Garde l'application vivante
         }
     }
 }
