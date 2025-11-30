@@ -1,0 +1,661 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|e:\\tp keyce b2-b\\c#\\keycewordeditor\\dialogs\\colorpickerdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|solutionrelative:dialogs\\colorpickerdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|e:\\tp keyce b2-b\\c#\\keycewordeditor\\dialogs\\colorpickerdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|solutionrelative:dialogs\\colorpickerdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|e:\\tp keyce b2-b\\c#\\keycewordeditor\\extensions\\documentgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|solutionrelative:extensions\\documentgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|e:\\tp keyce b2-b\\c#\\keycewordeditor\\dialogs\\tabledialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|solutionrelative:dialogs\\tabledialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|e:\\tp keyce b2-b\\c#\\keycewordeditor\\dialogs\\shapedialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|solutionrelative:dialogs\\shapedialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|e:\\tp keyce b2-b\\c#\\keycewordeditor\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|e:\\tp keyce b2-b\\c#\\keycewordeditor\\dialogs\\tabledialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|solutionrelative:dialogs\\tabledialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|e:\\tp keyce b2-b\\c#\\keycewordeditor\\dialogs\\tabledialog.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|solutionrelative:dialogs\\tabledialog.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|e:\\tp keyce b2-b\\c#\\keycewordeditor\\services\\docxexportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|solutionrelative:services\\docxexportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|e:\\tp keyce b2-b\\c#\\keycewordeditor\\modeles\\pagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|solutionrelative:modeles\\pagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|e:\\tp keyce b2-b\\c#\\keycewordeditor\\services\\exportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|solutionrelative:services\\exportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|e:\\tp keyce b2-b\\c#\\keycewordeditor\\modeles\\colorpickerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|solutionrelative:modeles\\colorpickerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|e:\\tp keyce b2-b\\c#\\keycewordeditor\\keycewordeditor.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|solutionrelative:keycewordeditor.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|e:\\tp keyce b2-b\\c#\\keycewordeditor\\extensions\\spellcheckermodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|solutionrelative:extensions\\spellcheckermodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|e:\\tp keyce b2-b\\c#\\keycewordeditor\\extensions\\aimodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|solutionrelative:extensions\\aimodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|e:\\tp keyce b2-b\\c#\\keycewordeditor\\services\\docxservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|solutionrelative:services\\docxservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|e:\\tp keyce b2-b\\c#\\keycewordeditor\\findreplacewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|solutionrelative:findreplacewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|e:\\tp keyce b2-b\\c#\\keycewordeditor\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|e:\\tp keyce b2-b\\c#\\keycewordeditor\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|e:\\tp keyce b2-b\\c#\\keycewordeditor\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|solutionrelative:assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|e:\\tp keyce b2-b\\c#\\keycewordeditor\\services\\printservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|solutionrelative:services\\printservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|e:\\tp keyce b2-b\\c#\\keycewordeditor\\extensions\\voicemodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|solutionrelative:extensions\\voicemodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|e:\\tp keyce b2-b\\c#\\keycewordeditor\\extensions\\voicecommandmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|solutionrelative:extensions\\voicecommandmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|e:\\tp keyce b2-b\\c#\\keycewordeditor\\modeles\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|solutionrelative:modeles\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|e:\\tp keyce b2-b\\c#\\keycewordeditor\\modeles\\style.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|solutionrelative:modeles\\style.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|e:\\tp keyce b2-b\\c#\\keycewordeditor\\modeles\\template.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|solutionrelative:modeles\\template.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|e:\\tp keyce b2-b\\c#\\keycewordeditor\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|solutionrelative:services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|e:\\tp keyce b2-b\\c#\\keycewordeditor\\resources\\icons\\icons.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|solutionrelative:resources\\icons\\icons.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|e:\\tp keyce b2-b\\c#\\keycewordeditor\\resources\\templates\\business_letter.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|solutionrelative:resources\\templates\\business_letter.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|e:\\tp keyce b2-b\\c#\\keycewordeditor\\resources\\templates\\cv_template.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|solutionrelative:resources\\templates\\cv_template.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|e:\\tp keyce b2-b\\c#\\keycewordeditor\\resources\\templates\\meeting_minutes.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|solutionrelative:resources\\templates\\meeting_minutes.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|e:\\tp keyce b2-b\\c#\\keycewordeditor\\resources\\templates\\report_template.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|solutionrelative:resources\\templates\\report_template.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|e:\\tp keyce b2-b\\c#\\keycewordeditor\\resources\\resourcemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|solutionrelative:resources\\resourcemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|e:\\tp keyce b2-b\\c#\\keycewordeditor\\resources\\templates\\meeting_minutes.xml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|solutionrelative:resources\\templates\\meeting_minutes.xml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|e:\\tp keyce b2-b\\c#\\keycewordeditor\\resources\\templates\\cv_template.xml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|solutionrelative:resources\\templates\\cv_template.xml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|e:\\tp keyce b2-b\\c#\\keycewordeditor\\resources\\templates\\report_template.xml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|solutionrelative:resources\\templates\\report_template.xml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|e:\\tp keyce b2-b\\c#\\keycewordeditor\\resources\\templates\\business_letter.xml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|solutionrelative:resources\\templates\\business_letter.xml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|e:\\tp keyce b2-b\\c#\\keycewordeditor\\resources\\dictionaries\\english.dic||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|solutionrelative:resources\\dictionaries\\english.dic||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|e:\\tp keyce b2-b\\c#\\keycewordeditor\\resources\\dictionaries\\french.dic||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C0021B8C-B1FA-4FFE-AFC9-C18C89FCAC92}|KeyceWordEditor.csproj|solutionrelative:resources\\dictionaries\\french.dic||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ColorPickerDialog.xaml.cs",
+              "DocumentMoniker": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Dialogs\\ColorPickerDialog.xaml.cs",
+              "RelativeDocumentMoniker": "Dialogs\\ColorPickerDialog.xaml.cs",
+              "ToolTip": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Dialogs\\ColorPickerDialog.xaml.cs",
+              "RelativeToolTip": "Dialogs\\ColorPickerDialog.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T15:13:55.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ColorPickerDialog.xaml",
+              "DocumentMoniker": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Dialogs\\ColorPickerDialog.xaml",
+              "RelativeDocumentMoniker": "Dialogs\\ColorPickerDialog.xaml",
+              "ToolTip": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Dialogs\\ColorPickerDialog.xaml",
+              "RelativeToolTip": "Dialogs\\ColorPickerDialog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-30T15:13:35.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TableDialog.xaml.cs",
+              "DocumentMoniker": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Dialogs\\TableDialog.xaml.cs",
+              "RelativeDocumentMoniker": "Dialogs\\TableDialog.xaml.cs",
+              "ToolTip": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Dialogs\\TableDialog.xaml.cs",
+              "RelativeToolTip": "Dialogs\\TableDialog.xaml.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAkwI8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T14:03:54.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ShapeDialog.xaml.cs",
+              "DocumentMoniker": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Dialogs\\ShapeDialog.xaml.cs",
+              "RelativeDocumentMoniker": "Dialogs\\ShapeDialog.xaml.cs",
+              "ToolTip": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Dialogs\\ShapeDialog.xaml.cs",
+              "RelativeToolTip": "Dialogs\\ShapeDialog.xaml.cs",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAkwMAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T14:14:47.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TableDialog.xaml",
+              "DocumentMoniker": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Dialogs\\TableDialog.xaml",
+              "RelativeDocumentMoniker": "Dialogs\\TableDialog.xaml",
+              "ToolTip": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Dialogs\\TableDialog.xaml",
+              "RelativeToolTip": "Dialogs\\TableDialog.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-29T14:12:11.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DocumentGenerator.cs",
+              "DocumentMoniker": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Extensions\\DocumentGenerator.cs",
+              "RelativeDocumentMoniker": "Extensions\\DocumentGenerator.cs",
+              "ToolTip": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Extensions\\DocumentGenerator.cs",
+              "RelativeToolTip": "Extensions\\DocumentGenerator.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAqwGYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T00:01:35.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-28T23:05:24.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TableDialog.xaml",
+              "DocumentMoniker": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Dialogs\\TableDialog.xaml",
+              "RelativeDocumentMoniker": "Dialogs\\TableDialog.xaml",
+              "ToolTip": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Dialogs\\TableDialog.xaml",
+              "RelativeToolTip": "Dialogs\\TableDialog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-29T14:12:13.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PageManager.cs",
+              "DocumentMoniker": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Modeles\\PageManager.cs",
+              "RelativeDocumentMoniker": "Modeles\\PageManager.cs",
+              "ToolTip": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Modeles\\PageManager.cs",
+              "RelativeToolTip": "Modeles\\PageManager.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAkwDEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T07:53:59.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ExportService.cs",
+              "DocumentMoniker": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Services\\ExportService.cs",
+              "RelativeDocumentMoniker": "Services\\ExportService.cs",
+              "ToolTip": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Services\\ExportService.cs",
+              "RelativeToolTip": "Services\\ExportService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAkwB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T00:23:35.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DocxExportService.cs",
+              "DocumentMoniker": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Services\\DocxExportService.cs",
+              "RelativeDocumentMoniker": "Services\\DocxExportService.cs",
+              "ToolTip": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Services\\DocxExportService.cs",
+              "RelativeToolTip": "Services\\DocxExportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T07:54:52.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ColorPickerService.cs",
+              "DocumentMoniker": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Modeles\\ColorPickerService.cs",
+              "RelativeDocumentMoniker": "Modeles\\ColorPickerService.cs",
+              "ToolTip": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Modeles\\ColorPickerService.cs",
+              "RelativeToolTip": "Modeles\\ColorPickerService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T07:54:19.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "KeyceWordEditor.csproj",
+              "DocumentMoniker": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\KeyceWordEditor.csproj",
+              "RelativeDocumentMoniker": "KeyceWordEditor.csproj",
+              "ToolTip": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\KeyceWordEditor.csproj",
+              "RelativeToolTip": "KeyceWordEditor.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-29T00:55:38.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SpellCheckerModule.cs",
+              "DocumentMoniker": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Extensions\\SpellCheckerModule.cs",
+              "RelativeDocumentMoniker": "Extensions\\SpellCheckerModule.cs",
+              "ToolTip": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Extensions\\SpellCheckerModule.cs",
+              "RelativeToolTip": "Extensions\\SpellCheckerModule.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwDQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T00:20:43.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T23:35:29.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AIModule.cs",
+              "DocumentMoniker": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Extensions\\AIModule.cs",
+              "RelativeDocumentMoniker": "Extensions\\AIModule.cs",
+              "ToolTip": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Extensions\\AIModule.cs",
+              "RelativeToolTip": "Extensions\\AIModule.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAAAIcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T23:51:19.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DocxService.cs",
+              "DocumentMoniker": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Services\\DocxService.cs",
+              "RelativeDocumentMoniker": "Services\\DocxService.cs",
+              "ToolTip": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Services\\DocxService.cs",
+              "RelativeToolTip": "Services\\DocxService.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAkwFkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T23:52:06.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "App.xaml",
+              "DocumentMoniker": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-28T23:28:47.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FindReplaceWindow.xaml.cs",
+              "DocumentMoniker": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\FindReplaceWindow.xaml.cs",
+              "RelativeDocumentMoniker": "FindReplaceWindow.xaml.cs",
+              "ToolTip": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\FindReplaceWindow.xaml.cs",
+              "RelativeToolTip": "FindReplaceWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T06:10:52.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "AssemblyInfo.cs",
+              "ToolTip": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\AssemblyInfo.cs",
+              "RelativeToolTip": "AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T01:05:43.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PrintService.cs",
+              "DocumentMoniker": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Services\\PrintService.cs",
+              "RelativeDocumentMoniker": "Services\\PrintService.cs",
+              "ToolTip": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Services\\PrintService.cs",
+              "RelativeToolTip": "Services\\PrintService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAqwCQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T23:59:12.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "VoiceModule.cs",
+              "DocumentMoniker": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Extensions\\VoiceModule.cs",
+              "RelativeDocumentMoniker": "Extensions\\VoiceModule.cs",
+              "ToolTip": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Extensions\\VoiceModule.cs",
+              "RelativeToolTip": "Extensions\\VoiceModule.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwCAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T00:19:37.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "VoiceCommandModule.cs",
+              "DocumentMoniker": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Extensions\\VoiceCommandModule.cs",
+              "RelativeDocumentMoniker": "Extensions\\VoiceCommandModule.cs",
+              "ToolTip": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Extensions\\VoiceCommandModule.cs",
+              "RelativeToolTip": "Extensions\\VoiceCommandModule.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T00:20:09.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Document.cs",
+              "DocumentMoniker": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Modeles\\Document.cs",
+              "RelativeDocumentMoniker": "Modeles\\Document.cs",
+              "ToolTip": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Modeles\\Document.cs",
+              "RelativeToolTip": "Modeles\\Document.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA8wCYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T00:26:39.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Style.cs",
+              "DocumentMoniker": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Modeles\\Style.cs",
+              "RelativeDocumentMoniker": "Modeles\\Style.cs",
+              "ToolTip": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Modeles\\Style.cs",
+              "RelativeToolTip": "Modeles\\Style.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA8wCYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T00:27:02.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Template.cs",
+              "DocumentMoniker": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Modeles\\Template.cs",
+              "RelativeDocumentMoniker": "Modeles\\Template.cs",
+              "ToolTip": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Modeles\\Template.cs",
+              "RelativeToolTip": "Modeles\\Template.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAqwCoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T00:27:29.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "FileService.cs",
+              "DocumentMoniker": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Services\\FileService.cs",
+              "RelativeDocumentMoniker": "Services\\FileService.cs",
+              "ToolTip": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Services\\FileService.cs",
+              "RelativeToolTip": "Services\\FileService.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAqwE8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T00:22:53.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Icons.xaml",
+              "DocumentMoniker": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Resources\\Icons\\Icons.xaml",
+              "RelativeDocumentMoniker": "Resources\\Icons\\Icons.xaml",
+              "ToolTip": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Resources\\Icons\\Icons.xaml",
+              "RelativeToolTip": "Resources\\Icons\\Icons.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-29T00:51:19.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "business_letter.xml",
+              "DocumentMoniker": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Resources\\Templates\\business_letter.xml",
+              "RelativeDocumentMoniker": "Resources\\Templates\\business_letter.xml",
+              "ToolTip": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Resources\\Templates\\business_letter.xml",
+              "RelativeToolTip": "Resources\\Templates\\business_letter.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-11-29T00:48:55.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "cv_template.xml",
+              "DocumentMoniker": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Resources\\Templates\\cv_template.xml",
+              "RelativeDocumentMoniker": "Resources\\Templates\\cv_template.xml",
+              "ToolTip": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Resources\\Templates\\cv_template.xml",
+              "RelativeToolTip": "Resources\\Templates\\cv_template.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-11-29T00:48:57.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "meeting_minutes.xml",
+              "DocumentMoniker": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Resources\\Templates\\meeting_minutes.xml",
+              "RelativeDocumentMoniker": "Resources\\Templates\\meeting_minutes.xml",
+              "ToolTip": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Resources\\Templates\\meeting_minutes.xml",
+              "RelativeToolTip": "Resources\\Templates\\meeting_minutes.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-11-29T00:49:28.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "report_template.xml",
+              "DocumentMoniker": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Resources\\Templates\\report_template.xml",
+              "RelativeDocumentMoniker": "Resources\\Templates\\report_template.xml",
+              "ToolTip": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Resources\\Templates\\report_template.xml",
+              "RelativeToolTip": "Resources\\Templates\\report_template.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-11-29T00:49:02.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ResourceManager.cs",
+              "DocumentMoniker": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Resources\\ResourceManager.cs",
+              "RelativeDocumentMoniker": "Resources\\ResourceManager.cs",
+              "ToolTip": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Resources\\ResourceManager.cs",
+              "RelativeToolTip": "Resources\\ResourceManager.cs",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAzwK4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T00:47:15.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "meeting_minutes.xml",
+              "DocumentMoniker": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Resources\\Templates\\meeting_minutes.xml",
+              "RelativeDocumentMoniker": "Resources\\Templates\\meeting_minutes.xml",
+              "ToolTip": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Resources\\Templates\\meeting_minutes.xml",
+              "RelativeToolTip": "Resources\\Templates\\meeting_minutes.xml",
+              "ViewState": "AgIAAC4AAAAAAAAAAADwvzoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-11-29T00:45:57.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "cv_template.xml",
+              "DocumentMoniker": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Resources\\Templates\\cv_template.xml",
+              "RelativeDocumentMoniker": "Resources\\Templates\\cv_template.xml",
+              "ToolTip": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Resources\\Templates\\cv_template.xml",
+              "RelativeToolTip": "Resources\\Templates\\cv_template.xml",
+              "ViewState": "AgIAADsAAAAAAAAAAADwv0cAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-11-29T00:45:34.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "report_template.xml",
+              "DocumentMoniker": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Resources\\Templates\\report_template.xml",
+              "RelativeDocumentMoniker": "Resources\\Templates\\report_template.xml",
+              "ToolTip": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Resources\\Templates\\report_template.xml",
+              "RelativeToolTip": "Resources\\Templates\\report_template.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-11-29T00:44:37.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "business_letter.xml",
+              "DocumentMoniker": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Resources\\Templates\\business_letter.xml",
+              "RelativeDocumentMoniker": "Resources\\Templates\\business_letter.xml",
+              "ToolTip": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Resources\\Templates\\business_letter.xml",
+              "RelativeToolTip": "Resources\\Templates\\business_letter.xml",
+              "ViewState": "AgIAAB4AAAAAAAAAAADwvyoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-11-29T00:43:48.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "English.dic",
+              "DocumentMoniker": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Resources\\Dictionaries\\English.dic",
+              "RelativeDocumentMoniker": "Resources\\Dictionaries\\English.dic",
+              "ToolTip": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Resources\\Dictionaries\\English.dic",
+              "RelativeToolTip": "Resources\\Dictionaries\\English.dic",
+              "ViewState": "AgIAAMcHAAAAAAAAAAAAwN8HAAAFAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHgSURBVEhLtZVdTsJAFIWroTyDK3ELJuCbsA1ZhQRFRETkV6yV8AAsgAI\u002BugW3wAr0RUop7Tj3dmagtLXFhJOc3mEynXu\u002BSWmlg4oQcsSGqOFwSKcIzAcY7rFZdeZkWf42DOMsl7v8ZNsEazAYEMuyXF5zr7nXWG3bJqPRiMznc6Kqb1\u002BtdueUbePSMasoSASiN0sW2AJbwrSRMKwBJZNJKZVOJeJx\u002BaPRbHma\u002BDbAqzOMpBPa5DydxiZsSijGKoo30MZjrH8pm81iVRQFKygmxxNs6K9\u002Bv4/nvlqZ1CticBuOl8IGWS4NogsviWmuSe2p7uH2EMAKTQsn2FUmkxUnEKher4dPjH9ymjogva47BNXHWhgBXCRpomnOxB6KRKCqKhJsznoneUD6BSOoPFSjEUwnByJQlFf8l7rTO6ndyalZcm7TNEn5vhJG4CD8h\u002BAikwkn6HZf8F3jSSu8OfNt/yx0sqIEpbtyOAGsmE4nzsQeikTQ7jwTkxKItCyxX2qenBsIirelcAJAmB2KoNlq4/Psl1Z4K/UuQeGmGIGA6n02xbqPgIBuwH4FqN5o4vMMKYOSBhkI8oVrTwfPBwdWxOQYWt7D/P5duT768D7HJhFtU9MBVj5XyF\u002B59jywJOkX7ucXnGOxDX8AAAAASUVORK5CYII=",
+              "WhenOpened": "2025-11-29T00:41:25.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "French.dic",
+              "DocumentMoniker": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Resources\\Dictionaries\\French.dic",
+              "RelativeDocumentMoniker": "Resources\\Dictionaries\\French.dic",
+              "ToolTip": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\Resources\\Dictionaries\\French.dic",
+              "RelativeToolTip": "Resources\\Dictionaries\\French.dic",
+              "ViewState": "AgIAAEMEAAAAAAAAAAAAwFsEAAAFAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHgSURBVEhLtZVdTsJAFIWroTyDK3ELJuCbsA1ZhQRFRETkV6yV8AAsgAI\u002BugW3wAr0RUop7Tj3dmagtLXFhJOc3mEynXu\u002BSWmlg4oQcsSGqOFwSKcIzAcY7rFZdeZkWf42DOMsl7v8ZNsEazAYEMuyXF5zr7nXWG3bJqPRiMznc6Kqb1\u002BtdueUbePSMasoSASiN0sW2AJbwrSRMKwBJZNJKZVOJeJx\u002BaPRbHma\u002BDbAqzOMpBPa5DydxiZsSijGKoo30MZjrH8pm81iVRQFKygmxxNs6K9\u002Bv4/nvlqZ1CticBuOl8IGWS4NogsviWmuSe2p7uH2EMAKTQsn2FUmkxUnEKher4dPjH9ymjogva47BNXHWhgBXCRpomnOxB6KRKCqKhJsznoneUD6BSOoPFSjEUwnByJQlFf8l7rTO6ndyalZcm7TNEn5vhJG4CD8h\u002BAikwkn6HZf8F3jSSu8OfNt/yx0sqIEpbtyOAGsmE4nzsQeikTQ7jwTkxKItCyxX2qenBsIirelcAJAmB2KoNlq4/Psl1Z4K/UuQeGmGIGA6n02xbqPgIBuwH4FqN5o4vMMKYOSBhkI8oVrTwfPBwdWxOQYWt7D/P5duT768D7HJhFtU9MBVj5XyF\u002B59jywJOkX7ucXnGOxDX8AAAAASUVORK5CYII=",
+              "WhenOpened": "2025-11-29T00:40:26.134Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

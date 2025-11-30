@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "dgSpecHash": "UDVBj0DV8z0=",
+  "success": true,
+  "projectFilePath": "E:\\TP Keyce B2-B\\C#\\KeyceWordEditor\\KeyceWordEditor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\BELLO\\.nuget\\packages\\bouncycastle\\1.8.9\\bouncycastle.1.8.9.nupkg.sha512",
+    "C:\\Users\\BELLO\\.nuget\\packages\\documentformat.openxml\\3.0.1\\documentformat.openxml.3.0.1.nupkg.sha512",
+    "C:\\Users\\BELLO\\.nuget\\packages\\documentformat.openxml.framework\\3.0.1\\documentformat.openxml.framework.3.0.1.nupkg.sha512",
+    "C:\\Users\\BELLO\\.nuget\\packages\\docx\\3.0.0\\docx.3.0.0.nupkg.sha512",
+    "C:\\Users\\BELLO\\.nuget\\packages\\itextsharp\\5.5.13.3\\itextsharp.5.5.13.3.nupkg.sha512",
+    "C:\\Users\\BELLO\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\BELLO\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512",
+    "C:\\Users\\BELLO\\.nuget\\packages\\system.io.packaging\\8.0.0\\system.io.packaging.8.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Le package 'BouncyCastle 1.8.9' a été restauré en utilisant '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' au lieu du framework cible du projet 'net8.0-windows7.0'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
+      "libraryId": "BouncyCastle",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Le package 'iTextSharp 5.5.13.3' a été restauré en utilisant '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' au lieu du framework cible du projet 'net8.0-windows7.0'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
+      "libraryId": "iTextSharp",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    }
+  ]
+}

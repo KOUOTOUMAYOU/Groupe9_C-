@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+	<Name>Lettre d'affaires</Name>
+	<Category>Lettres</Category>
+	<Description>Modèle de lettre professionnelle formelle</Description>
+	<Placeholders>
+		<Placeholder key="from_name" description="Nom de l'expéditeur"/>
+		<Placeholder key="from_address" description="Adresse de l'expéditeur"/>
+		<Placeholder key="from_phone" description="Téléphone"/>
+		<Placeholder key="from_email" description="Email"/>
+		<Placeholder key="to_name" description="Nom du destinataire"/>
+		<Placeholder key="to_title" description="Titre/fonction du destinataire"/>
+		<Placeholder key="to_company" description="Entreprise du destinataire"/>
+		<Placeholder key="to_address" description="Adresse du destinataire"/>
+		<Placeholder key="date" description="Date"/>
+		<Placeholder key="subject" description="Objet de la lettre"/>
+		<Placeholder key="reference" description="Référence"/>
+	</Placeholders>
+	<Content>
+		<![CDATA[[from_name]
+[from_address]
+Tél: [from_phone]
+Email: [from_email]
+
+[to_title] [to_name]
+[to_company]
+[to_address]
+
+[date]
+
+Objet : [subject]
+Référence : [reference]
+
+Madame, Monsieur,
+
+
+
+Veuillez agréer, Madame, Monsieur, l'expression de mes salutations distinguées.
+
+[from_name]
+]]>
+	</Content>
+</Template>

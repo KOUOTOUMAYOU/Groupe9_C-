@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+	<Name>Rapport professionnel</Name>
+	<Category>Rapports</Category>
+	<Description>Modèle de rapport professionnel structuré</Description>
+	<Placeholders>
+		<Placeholder key="title" description="Titre du rapport"/>
+		<Placeholder key="subtitle" description="Sous-titre"/>
+		<Placeholder key="author" description="Auteur"/>
+		<Placeholder key="department" description="Département"/>
+		<Placeholder key="company" description="Entreprise"/>
+		<Placeholder key="date" description="Date"/>
+		<Placeholder key="version" description="Version"/>
+		<Placeholder key="confidential" description="Niveau de confidentialité"/>
+	</Placeholders>
+	<Content>
+		<![CDATA[[title]
+[subtitle]
+
+Auteur: [author]
+Département: [department]
+Entreprise: [company]
+Date: [date]
+Version: [version]
+Confidentialité: [confidential]
+
+TABLE DES MATIÈRES
+
+1. RÉSUMÉ EXÉCUTIF
+2. INTRODUCTION
+   2.1 Contexte
+   2.2 Objectifs
+3. MÉTHODOLOGIE
+4. RÉSULTATS
+   4.1 Principales découvertes
+   4.2 Analyse des données
+5. DISCUSSION
+6. RECOMMANDATIONS
+7. CONCLUSION
+8. ANNEXES
+
+1. RÉSUMÉ EXÉCUTIF
+
+
+
+2. INTRODUCTION
+2.1 Contexte
+
+
+
+2.2 Objectifs
+
+
+
+3. MÉTHODOLOGIE
+
+
+
+4. RÉSULTATS
+4.1 Principales découvertes
+
+
+
+4.2 Analyse des données
+
+
+
+5. DISCUSSION
+
+
+
+6. RECOMMANDATIONS
+
+
+
+7. CONCLUSION
+
+
+
+8. ANNEXES
+]]>
+	</Content>
+</Template>

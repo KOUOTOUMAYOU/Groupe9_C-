@@ -1,0 +1,75 @@
+﻿<Window x:Class="KeyceWordEditor.Dialogs.TableDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Insérer un tableau" 
+        Height="350" Width="450"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Text="Configuration du tableau" FontSize="16" FontWeight="Bold" Margin="0,0,0,20"/>
+
+        <!-- Lignes -->
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,0,0,15">
+            <TextBlock Text="Nombre de lignes:" Width="150" VerticalAlignment="Center"/>
+            <TextBox x:Name="RowsTextBox" Width="100" Text="3" VerticalAlignment="Center"/>
+            <Slider x:Name="RowsSlider" Width="150" Minimum="1" Maximum="20" Value="3" 
+                    TickFrequency="1" IsSnapToTickEnabled="True" Margin="10,0,0,0"
+                    ValueChanged="RowsSlider_ValueChanged"/>
+        </StackPanel>
+
+        <!-- Colonnes -->
+        <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="0,0,0,15">
+            <TextBlock Text="Nombre de colonnes:" Width="150" VerticalAlignment="Center"/>
+            <TextBox x:Name="ColumnsTextBox" Width="100" Text="3" VerticalAlignment="Center"/>
+            <Slider x:Name="ColumnsSlider" Width="150" Minimum="1" Maximum="10" Value="3" 
+                    TickFrequency="1" IsSnapToTickEnabled="True" Margin="10,0,0,0"
+                    ValueChanged="ColumnsSlider_ValueChanged"/>
+        </StackPanel>
+
+        <!-- Couleur de bordure -->
+        <StackPanel Grid.Row="3" Orientation="Horizontal" Margin="0,0,0,15">
+            <TextBlock Text="Couleur de bordure:" Width="150" VerticalAlignment="Center"/>
+            <Button x:Name="BorderColorButton" Width="100" Height="25" Click="BorderColorButton_Click">
+                <Border Background="Black" Width="80" Height="20"/>
+            </Button>
+        </StackPanel>
+
+        <!-- Couleur de fond -->
+        <StackPanel Grid.Row="4" Orientation="Horizontal" Margin="0,0,0,15">
+            <TextBlock Text="Couleur de fond:" Width="150" VerticalAlignment="Center"/>
+            <Button x:Name="BackgroundColorButton" Width="100" Height="25" Click="BackgroundColorButton_Click">
+                <Border Background="White" Width="80" Height="20"/>
+            </Button>
+        </StackPanel>
+
+        <!-- Épaisseur de bordure -->
+        <StackPanel Grid.Row="5" Orientation="Horizontal" Margin="0,0,0,15">
+            <TextBlock Text="Épaisseur bordure:" Width="150" VerticalAlignment="Center"/>
+            <TextBox x:Name="BorderThicknessTextBox" Width="100" Text="1" VerticalAlignment="Center"/>
+        </StackPanel>
+
+        <!-- Aperçu -->
+        <GroupBox Grid.Row="6" Header="Aperçu" Margin="0,10,0,20">
+            <Border x:Name="PreviewBorder" BorderBrush="Black" BorderThickness="1" Background="White" Margin="10">
+                <Grid x:Name="PreviewGrid" ShowGridLines="True"/>
+            </Border>
+        </GroupBox>
+
+        <!-- Boutons -->
+        <StackPanel Grid.Row="7" Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button Content="OK" Width="80" Height="30" Margin="0,0,10,0" Click="OK_Click" IsDefault="True"/>
+            <Button Content="Annuler" Width="80" Height="30" Click="Cancel_Click" IsCancel="True"/>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+	<Name>Procès-verbal de réunion</Name>
+	<Category>Réunions</Category>
+	<Description>Modèle pour comptes-rendus de réunion</Description>
+	<Placeholders>
+		<Placeholder key="meeting_title" description="Objet de la réunion"/>
+		<Placeholder key="date" description="Date de la réunion"/>
+		<Placeholder key="time" description="Heure de la réunion"/>
+		<Placeholder key="location" description="Lieu"/>
+		<Placeholder key="president" description="Président de séance"/>
+		<Placeholder key="secretary" description="Secrétaire"/>
+		<Placeholder key="attendees" description="Participants présents"/>
+		<Placeholder key="absent" description="Participants absents"/>
+		<Placeholder key="agenda" description="Ordre du jour"/>
+		<Placeholder key="decisions" description="Décisions prises"/>
+		<Placeholder key="action_items" description="Actions à mener"/>
+		<Placeholder key="next_meeting" description="Prochaine réunion"/>
+	</Placeholders>
+	<Content>
+		<![CDATA[PROCÈS-VERBAL DE RÉUNION
+
+Objet: [meeting_title]
+Date: [date]
+Heure: [time]
+Lieu: [location]
+
+PRÉSIDENCE
+Président: [president]
+Secrétaire: [secretary]
+
+PRÉSENTS
+[attendees]
+
+ABSENTS EXCUSÉS
+[absent]
+
+ORDRE DU JOUR
+[agenda]
+
+COMPTE-RENDU DÉTAILLÉ
+
+
+
+DÉCISIONS PRISES
+[decisions]
+
+ACTIONS À MENER
+[action_items]
+
+PROCHAINE RÉUNION
+Date et heure: [next_meeting]
+
+Signature du président: ___________________
+
+Date: [date]
+]]>
+	</Content>
+</Template>

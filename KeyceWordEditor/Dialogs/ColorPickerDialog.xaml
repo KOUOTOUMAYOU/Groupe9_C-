@@ -1,0 +1,71 @@
+﻿<Window x:Class="KeyceWordEditor.Dialogs.ColorPickerDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Sélectionner une couleur" 
+        Height="450" Width="400"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Text="Sélectionner une couleur" FontSize="16" FontWeight="Bold" Margin="0,0,0,20"/>
+
+        <!-- Sliders RGB -->
+        <StackPanel Grid.Row="1" Margin="0,0,0,15">
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                <TextBlock Text="Rouge:" Width="80" VerticalAlignment="Center"/>
+                <Slider x:Name="RedSlider" Width="200" Minimum="0" Maximum="255" Value="128" 
+                        TickFrequency="1" ValueChanged="ColorSlider_ValueChanged"/>
+                <TextBlock Text="{Binding Value, ElementName=RedSlider, StringFormat={}{0:F0}}" 
+                           Width="40" Margin="10,0,0,0" VerticalAlignment="Center"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                <TextBlock Text="Vert:" Width="80" VerticalAlignment="Center"/>
+                <Slider x:Name="GreenSlider" Width="200" Minimum="0" Maximum="255" Value="128" 
+                        TickFrequency="1" ValueChanged="ColorSlider_ValueChanged"/>
+                <TextBlock Text="{Binding Value, ElementName=GreenSlider, StringFormat={}{0:F0}}" 
+                           Width="40" Margin="10,0,0,0" VerticalAlignment="Center"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Bleu:" Width="80" VerticalAlignment="Center"/>
+                <Slider x:Name="BlueSlider" Width="200" Minimum="0" Maximum="255" Value="128" 
+                        TickFrequency="1" ValueChanged="ColorSlider_ValueChanged"/>
+                <TextBlock Text="{Binding Value, ElementName=BlueSlider, StringFormat={}{0:F0}}" 
+                           Width="40" Margin="10,0,0,0" VerticalAlignment="Center"/>
+            </StackPanel>
+        </StackPanel>
+
+        <!-- Aperçu -->
+        <GroupBox Grid.Row="2" Header="Aperçu" Margin="0,0,0,15">
+            <Border x:Name="PreviewBorder" Height="80" BorderBrush="Black" BorderThickness="1" Margin="10"/>
+        </GroupBox>
+
+        <!-- Couleurs prédéfinies -->
+        <GroupBox Grid.Row="3" Header="Couleurs prédéfinies" Margin="0,0,0,15">
+            <WrapPanel x:Name="PresetColorsPanel" Margin="10">
+                <!-- Les couleurs seront ajoutées par code -->
+            </WrapPanel>
+        </GroupBox>
+
+        <!-- Code couleur -->
+        <StackPanel Grid.Row="4" Orientation="Horizontal" Margin="0,0,0,15">
+            <TextBlock Text="Code HEX:" Width="80" VerticalAlignment="Center"/>
+            <TextBox x:Name="HexTextBox" Width="100" VerticalAlignment="Center" TextChanged="HexTextBox_TextChanged"/>
+        </StackPanel>
+
+        <!-- Boutons -->
+        <StackPanel Grid.Row="5" Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button Content="OK" Width="80" Height="30" Margin="0,0,10,0" Click="OK_Click" IsDefault="True"/>
+            <Button Content="Annuler" Width="80" Height="30" Click="Cancel_Click" IsCancel="True"/>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Template>
+	<Name>Curriculum Vitae</Name>
+	<Category>CV</Category>
+	<Description>Modèle de CV professionnel</Description>
+	<Placeholders>
+		<Placeholder key="full_name" description="Nom complet"/>
+		<Placeholder key="title" description="Titre professionnel"/>
+		<Placeholder key="address" description="Adresse"/>
+		<Placeholder key="phone" description="Téléphone"/>
+		<Placeholder key="email" description="Email"/>
+		<Placeholder key="linkedin" description="Profil LinkedIn"/>
+		<Placeholder key="summary" description="Résumé professionnel"/>
+		<Placeholder key="experience1_title" description="Poste 1"/>
+		<Placeholder key="experience1_company" description="Entreprise 1"/>
+		<Placeholder key="experience1_dates" description="Dates 1"/>
+		<Placeholder key="experience1_description" description="Description 1"/>
+		<Placeholder key="experience2_title" description="Poste 2"/>
+		<Placeholder key="experience2_company" description="Entreprise 2"/>
+		<Placeholder key="experience2_dates" description="Dates 2"/>
+		<Placeholder key="experience2_description" description="Description 2"/>
+		<Placeholder key="education1_degree" description="Diplôme 1"/>
+		<Placeholder key="education1_school" description="École 1"/>
+		<Placeholder key="education1_dates" description="Dates études 1"/>
+		<Placeholder key="education2_degree" description="Diplôme 2"/>
+		<Placeholder key="education2_school" description="École 2"/>
+		<Placeholder key="education2_dates" description="Dates études 2"/>
+		<Placeholder key="skills" description="Compétences"/>
+		<Placeholder key="languages" description="Langues"/>
+		<Placeholder key="certifications" description="Certifications"/>
+	</Placeholders>
+	<Content>
+		<![CDATA[[full_name]
+[title]
+
+ADRESSE: [address]
+TÉLÉPHONE: [phone]
+EMAIL: [email]
+LINKEDIN: [linkedin]
+
+PROFIL PROFESSIONNEL
+[summary]
+
+EXPÉRIENCE PROFESSIONNELLE
+
+[experience1_title]
+[experience1_company] | [experience1_dates]
+[experience1_description]
+
+[experience2_title]
+[experience2_company] | [experience2_dates]
+[experience2_description]
+
+FORMATION
+
+[education1_degree]
+[education1_school] | [education1_dates]
+
+[education2_degree]
+[education2_school] | [education2_dates]
+
+COMPÉTENCES
+[skills]
+
+LANGUES
+[languages]
+
+CERTIFICATIONS
+[certifications]
+]]>
+	</Content>
+</Template>
